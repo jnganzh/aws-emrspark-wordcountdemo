@@ -9,7 +9,7 @@ This was a good tutorial to get started with AWS EMR spark, however it is slight
 1. Open up your AWS console and go to EMR.
 2. Create a cluster. You should see this page.
 
-![Alt text](http://full/path/to/img.jpg "EMR Cluster Creation Page")
+![Alt text](https://github.com/jnganzh/aws-emrspark-wordcountdemo/blob/main/Reference%20Screenshots/01_Create_cluster.JPG "EMR Cluster Creation Page")
 
 As we are going to be using spark in this tutorial, under Software Configuration -> Applications -> Select Spark.
 
