@@ -13,7 +13,7 @@ This was a good tutorial to get started with AWS EMR spark, however it is slight
 
 As we are going to be using spark in this tutorial, under Software Configuration -> Applications -> Select Spark.
 
-![Alt text](http://full/path/to/img.jpg "EMR Cluster Creation Page")
+![Alt text](https://github.com/jnganzh/aws-emrspark-wordcountdemo/blob/main/Reference%20Screenshots/02_SecurityAccess.JPG)
 
 Under Security and Access, click "Learn how to create an EC2 keypair" and follow the instructions. Make sure you create this keypair first and select it when you create the cluster if not you will not be able to SSH into the master node.
 
@@ -23,7 +23,8 @@ Under Security and Access, click "Learn how to create an EC2 keypair" and follow
 
 1. Create a S3 bucket, under Block Public Access settings for this bucket, uncheck the block all public access.
 
-![Alt text](http://full/path/to/img.jpg "EMR Cluster Creation Page")
+![Alt text](https://github.com/jnganzh/aws-emrspark-wordcountdemo/blob/main/Reference%20Screenshots/03_AllowPublicAccess.JPG)
+![Alt text](https://github.com/jnganzh/aws-emrspark-wordcountdemo/blob/main/Reference%20Screenshots/04_Connect.JPG)
 
 3. Upload a file .txt file into this bucket with some words in it, you can use the input.txt file located in this repo.
 4. Before uploading the file scroll to ACL control list, check the box for public access for the objects.
@@ -40,7 +41,7 @@ Under Security and Access, click "Learn how to create an EC2 keypair" and follow
 1. Navigate to EMR through the search function
 2. Click on "Connect to the Master Node using SSH". Some instructions will pop up, you will need the keypair you generated earlier.
 
-![Alt text](http://full/path/to/img.jpg "EMR Cluster Creation Page")
+![Alt text](https://github.com/jnganzh/aws-emrspark-wordcountdemo/blob/main/Reference%20Screenshots/04_Connect.JPG)
 
 3. Type "vi wordcount.py" into the console
 4. Copy and paste the code from the wordcount.py file in this repo into the vi window. Change the s3 url in line 16 of the code. Make sure your url starts with "s3://". 
