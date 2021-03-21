@@ -24,7 +24,6 @@ Under Security and Access, click "Learn how to create an EC2 keypair" and follow
 1. Create a S3 bucket, under Block Public Access settings for this bucket, uncheck the block all public access.
 
 ![Alt text](https://github.com/jnganzh/aws-emrspark-wordcountdemo/blob/main/Reference%20Screenshots/03_AllowPublicAccess.JPG)
-![Alt text](https://github.com/jnganzh/aws-emrspark-wordcountdemo/blob/main/Reference%20Screenshots/04_Connect.JPG)
 
 3. Upload a file .txt file into this bucket with some words in it, you can use the input.txt file located in this repo.
 4. Before uploading the file scroll to ACL control list, check the box for public access for the objects.
